@@ -5,7 +5,8 @@ import json
 import os
 from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from dotenv import load_dotenv
-
+from keep_alive import keep_alive
+keep_alive()
 load_dotenv()  # .env에서 환경변수 불러오기 (로컬 실행 시 필요)
 
 TOKEN = os.getenv('TOKEN')

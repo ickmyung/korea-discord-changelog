@@ -2,3 +2,4 @@ discord.py
 feedparser
 apscheduler
 python-dotenv
+flask
